@@ -24,7 +24,7 @@ namespace Course
             int n = int.Parse(Console.ReadLine());
             for(int k =1;k<=n;k++)
             {
-                Console.WriteLine("Enter #{0} contract data:",k);
+                Console.WriteLine($"Enter #{k} contract data: ");
                 Console.Write("Date (DD/MM/YYYY): ");
                 DateTime data = DateTime.Parse(Console.ReadLine());
                 Console.Write("Value per hour: ");
